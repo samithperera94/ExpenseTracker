@@ -26,6 +26,12 @@ function App() {
       amount: 450,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: 'e5',
+      title: 'New Keybosrd ',
+      amount: 425,
+      date: new Date(2020, 5, 12),
+    },
   ];
 
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
